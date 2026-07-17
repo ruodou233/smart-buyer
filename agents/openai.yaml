@@ -1,0 +1,4 @@
+interface:
+  display_name: "聪明买手"
+  short_description: "先研究优质与劣质风险，再核实SKU价格、参数和社区真实口碑"
+  default_prompt: "Use $smart-buyer to compare products and recommend the best verified value for my needs."
