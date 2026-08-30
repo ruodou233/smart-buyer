@@ -73,10 +73,6 @@ Agent 会先说明评价标准和证据，再列候选；不会只给一份没�
 - 价格、库存和促销随时间变化，最终下单前仍应核对目标 SKU。
 - 医疗、安全、食品法规等高风险判断应优先采用监管和标准资料，必要时寻求专业意见。
 
-## 更新检查与隐私
-
-本 Skill 默认在每次会话首次调用时，向 GitHub 做一次限时的轻量版本检查；失败会静默跳过，发现更新也只会先说明收益并征求同意，不会自动覆盖本地文件。若不希望产生这次网络请求，可创建全局开关 `~/.config/agentops-skills/no-update-check`，或仅为本 Skill 创建 `~/.config/agentops-skills/smart-buyer.no-update-check`。
-
 ## Changelog
 
 | 时间 | 变更 |
