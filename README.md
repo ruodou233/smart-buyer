@@ -1,6 +1,6 @@
 # smart-buyer
 
-让 AI 先学会判断好坏，再替你挑。聪明买手可以用在购物、软件订阅、服务比较和技术方案选型：先研究“好的为什么好”和“容易踩的坑在哪里”，定好标准后再找候选，核实参数、实际成本和社区实践，最后说清楚哪个更值、为什么适合你。
+让 AI 帮你挑，它推荐了一堆，每个都说得挺好，到底该选哪个还是没弄明白？聪明买手先研究什么算好、通常坑在哪里，再去比较候选。买东西、选软件、找服务、比技术方案，都把成本和真实体验查清楚再推荐。
 
 ## 可以帮你挑什么
 
@@ -87,6 +87,6 @@ git clone https://github.com/ruodou233/smart-buyer.git ~/.codex/skills/smart-buy
 
 ## 相关 Skill
 
-- [cross-review](https://github.com/ruodou233/cross-review)：AI 的活总差一点？三路独立审方案、找遗漏、减复杂度
+- [cross-review](https://github.com/ruodou233/cross-review)：AI 的活总差一点，总要你擦屁股，总打丑补丁？让另一家 AI 挑刺复查，自己把活干完整，不用你一直兜底。
 
 完整目录见 [GitHub 主页](https://github.com/ruodou233)。
