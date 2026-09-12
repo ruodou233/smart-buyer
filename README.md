@@ -1,4 +1,6 @@
-# smart-buyer
+# 聪明买手·购物与选型｜Product Comparison & Buying Advice
+
+Research and compare products, software, services, and technical options using buying criteria, verified costs, and real user feedback.
 
 让 AI 帮你挑，它推荐了一堆，每个都说得挺好，到底该选哪个还是没弄明白？聪明买手先研究什么算好、通常坑在哪里，再去比较候选。买东西、选软件、找服务、比技术方案，都把成本和真实体验查清楚再推荐。
 
@@ -87,6 +89,6 @@ git clone https://github.com/ruodou233/smart-buyer.git ~/.codex/skills/smart-buy
 
 ## 相关 Skill
 
-- [cross-review](https://github.com/ruodou233/cross-review)：AI 的活总差一点，总要你擦屁股，总打丑补丁？让另一家 AI 挑刺复查，自己把活干完整，不用你一直兜底。
+- [cross-review](https://github.com/ruodou233/cross-review)：AI 的活总差一点，总要你擦屁股，总打丑补丁？让另一家 AI 挑刺复查，自己把活干完整，不用你一直兜底。<br>An agent skill for independent code and design reviews across AI providers, checking correctness, complexity, and better approaches.
 
 完整目录见 [GitHub 主页](https://github.com/ruodou233)。
