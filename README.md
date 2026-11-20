@@ -10,7 +10,7 @@ Research and compare products, software, services, and technical options using b
 - **食品和耗材**：把规格、单价和实际品质一起算。“哪款响铃卷的蛋白质性价比高，同时别有旧油味？”便宜多少、少了多少、用起来差在哪，都值得查明白。
 - **软件与服务**：功能表之外，看看套餐限制、续费成本和长期用户的反馈。“帮我比较这几款云盘，我主要备份照片，按一年实际要花的钱排一排。”
 - **技术方案选型**：先了解各条路线解决什么问题、常见麻烦是什么，再结合自己的条件挑。“个人项目的数据库怎么选？帮我比较部署成本、维护难度和大家踩过的坑。”
-- **只看社区口碑**：“社区怎么评价这款耳机？”“A 和 B 哪个真实口碑更好？”不走完整选型，直接从爱好者社区里找达到门槛的讨论，把具体体验、长期反馈、比较和争议摆出来，每条附来源、时间和采集时的正向计数。想知道的是“最近大家在聊什么、为什么突然火了”，用 [community-buzz](https://github.com/ruodou233/community-buzz)。
+- **只想看口碑**：“社区怎么评价这款耳机？”“最近为什么突然火了？”这类只问大家怎么说、不问买哪个的，用 [community-buzz](https://github.com/ruodou233/community-buzz)。选购时要查口碑，本 skill 也是用它取社区讨论，再按自己的门槛判断。
 - **选型前先做功课**：“我还没想好买哪款 NAS，先告诉我该看什么指标、哪些坑值得留意。”先研究好坏标准和失败模式，弄明白以后再开始挑。
 
 ## 为什么需要它
@@ -35,7 +35,7 @@ Research and compare products, software, services, and technical options using b
 - **风险分类**：不把品类天然限制或个人偏好误判成质量缺陷，也不凭理论风险给具体产品定罪。
 - **成本放在同一把尺子上**：商品核实 SKU、总规格、运费和优惠条件；软件与服务核实版本、套餐和收费条件；技术方案把部署、维护、迁移投入也算进去，再按同一使用规模和周期比较。
 - **数据溯源分级**：优先使用官方规格、实际包装标签和监管/标准数据；追不到原始出处的数字明确标为未核实。
-- **实践验证自包含**：不依赖其他 Skill；实物商品从自身原生正向计数不少于 10 的社区内容里提取长期反馈和竞品对比。软件、服务和技术方案则结合版本文档、真实使用记录、问题跟踪和可复现测试，核对关键能力。
+- **实践验证有门槛**：实物商品的社区讨论用 [community-buzz](https://github.com/ruodou233/community-buzz) 取（没装也能自己搜），只有自身原生正向计数不少于 10 的内容才算证据，从里面提取长期反馈和竞品对比。软件、服务和技术方案则结合版本文档、真实使用记录、问题跟踪和可复现测试，核对关键能力。
 - **风险可见**：每个推荐都展示风险核对结果和到货验收建议，不让前期调研消失在最终报告里。
 - **诚实降级**：负向证据或社区讨论不足时明确说明，不降低标准凑数。
 
@@ -50,7 +50,7 @@ git clone https://github.com/ruodou233/smart-buyer.git ~/.claude/skills/smart-bu
 Codex：
 
 ```bash
-git clone https://github.com/ruodou233/smart-buyer.git ~/.codex/skills/smart-buyer
+git clone https://github.com/ruodou233/smart-buyer.git ~/.agents/skills/smart-buyer
 ```
 
 其他支持 `SKILL.md` 的 Agent：将本仓库放入对应的 skills 目录即可。
@@ -78,6 +78,8 @@ git clone https://github.com/ruodou233/smart-buyer.git ~/.codex/skills/smart-buy
 | 时间 | 变更 |
 |---|---|
 | 2026-07-18 | 首次开源：加入正反双轨设标、反软文、SKU 价格归一化、社区验证和风险输出 |
+| 2026-10-12 | 并入 community-buzz 的口碑挖掘 |
+| 2026-11-20 | 只看口碑交还 community-buzz；选购时的社区讨论用它取，门槛仍在本 skill 判断 |
 
 ## 反馈与作者
 
